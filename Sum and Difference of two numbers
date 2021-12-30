@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+    int inum1, inum2; 
+    float fnum1, fnum2;
+    int iresultadd, iresultsub;
+    float fresultadd, fresultsub;
+    
+    scanf("%d %d", &inum1, &inum2);
+    
+    scanf("%f %f", &fnum1, &fnum2);
+    
+    iresultadd = inum1 + inum2;
+    iresultsub = inum1 - inum2;
+    
+    fresultadd = fnum1 + fnum2;
+    fresultsub = fnum1 - fnum2;
+    
+    printf("%d %d \n", iresultadd, iresultsub);
+    printf("%.1f %.1f", fresultadd, fresultsub);
+    
+    return 0;
+}
